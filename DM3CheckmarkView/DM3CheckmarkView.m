@@ -70,34 +70,34 @@
     // Add to parent layer
     [self.layer addSublayer:circle];
 
-    if (self.shouldAnimateDrawing) {
-        UIBezierPath *path = [UIBezierPath bezierPath];
+        UIBezierPath *checkMarkPath = [UIBezierPath bezierPath];
 
         CGPoint viewCenter = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
         CGPoint p1 = CGPointMake(viewCenter.x - (radius * 0.6), viewCenter.y);
         CGPoint p2 = CGPointMake(viewCenter.x - (radius * 0.2), viewCenter.y + (radius * 0.4));
         CGPoint p3 = CGPointMake(viewCenter.x + (radius * 0.6), viewCenter.y - (radius * 0.4));
 
-        [path moveToPoint:p1];
-        [path addLineToPoint:p2];
-        [path addLineToPoint:p3];
+        [checkMarkPath moveToPoint:p1];
+        [checkMarkPath addLineToPoint:p2];
+        [checkMarkPath addLineToPoint:p3];
 
-        CAShapeLayer *pathLayer = [CAShapeLayer layer];
-        pathLayer.frame = self.bounds;
-        pathLayer.path = path.CGPath;
-        pathLayer.strokeColor = self.checkmarkColor.CGColor;
-        pathLayer.fillColor = nil;
-        pathLayer.lineWidth = diametr / 10.0f;
-        pathLayer.lineJoin = kCALineCapSquare;
+        CAShapeLayer *checkMarkPathLayer = [CAShapeLayer layer];
+        checkMarkPathLayer.frame = self.bounds;
+        checkMarkPathLayer.path = checkMarkPath.CGPath;
+        checkMarkPathLayer.strokeColor = self.checkmarkColor.CGColor;
+        checkMarkPathLayer.fillColor = nil;
+        checkMarkPathLayer.lineWidth = diametr / 10.0f;
+        checkMarkPathLayer.lineJoin = kCALineCapSquare;
 
-        [self.layer addSublayer:pathLayer];
+        [self.layer addSublayer:checkMarkPathLayer];
 
+    if (self.shouldAnimateDrawing) {
         CABasicAnimation *pathAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
         pathAnimation.duration = self.animationDuration;
         pathAnimation.fromValue = @0;
         pathAnimation.toValue = @1;
         pathAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-        [pathLayer addAnimation:pathAnimation forKey:@"strokeEnd"];
+        [checkMarkPathLayer addAnimation:pathAnimation forKey:@"strokeEnd"];
         self.shouldAnimateDrawing = NO;
     }
 }
