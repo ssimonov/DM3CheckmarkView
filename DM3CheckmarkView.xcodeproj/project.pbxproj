@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3DA53D1DE841D6002073F6 /* DM3Checkmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3DA5341DE841D6002073F6 /* DM3Checkmark.framework */; };
+		0F3DA5441DE841D6002073F6 /* DM3CheckmarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3DA5431DE841D6002073F6 /* DM3CheckmarkTests.m */; };
+		0F3DA5461DE841D6002073F6 /* DM3Checkmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3DA5361DE841D6002073F6 /* DM3Checkmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3DA5491DE841D6002073F6 /* DM3Checkmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3DA5341DE841D6002073F6 /* DM3Checkmark.framework */; };
+		0F3DA54A1DE841D6002073F6 /* DM3Checkmark.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3DA5341DE841D6002073F6 /* DM3Checkmark.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F3DA5531DE84267002073F6 /* DM3CheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC836F371CF784E500DAA71D /* DM3CheckmarkView.m */; };
+		0F3DA5541DE842A7002073F6 /* DM3CheckmarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC836F361CF784E500DAA71D /* DM3CheckmarkView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC836F211CF783B000DAA71D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC836F201CF783B000DAA71D /* main.m */; };
 		BC836F241CF783B000DAA71D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC836F231CF783B000DAA71D /* AppDelegate.m */; };
 		BC836F271CF783B000DAA71D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC836F261CF783B000DAA71D /* ViewController.m */; };
@@ -16,7 +23,51 @@
 		BC836F381CF784E500DAA71D /* DM3CheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC836F371CF784E500DAA71D /* DM3CheckmarkView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0F3DA53E1DE841D6002073F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC836F141CF783B000DAA71D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3DA5331DE841D6002073F6;
+			remoteInfo = DM3Checkmark;
+		};
+		0F3DA5401DE841D6002073F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC836F141CF783B000DAA71D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC836F1B1CF783B000DAA71D;
+			remoteInfo = DM3CheckmarkView;
+		};
+		0F3DA5471DE841D6002073F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC836F141CF783B000DAA71D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3DA5331DE841D6002073F6;
+			remoteInfo = DM3Checkmark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F3DA5501DE841D6002073F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0F3DA54A1DE841D6002073F6 /* DM3Checkmark.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0F3DA5341DE841D6002073F6 /* DM3Checkmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DM3Checkmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3DA5361DE841D6002073F6 /* DM3Checkmark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DM3Checkmark.h; sourceTree = "<group>"; };
+		0F3DA5371DE841D6002073F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3DA53C1DE841D6002073F6 /* DM3CheckmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DM3CheckmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3DA5431DE841D6002073F6 /* DM3CheckmarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DM3CheckmarkTests.m; sourceTree = "<group>"; };
+		0F3DA5451DE841D6002073F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC836F1C1CF783B000DAA71D /* DM3CheckmarkView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DM3CheckmarkView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC836F201CF783B000DAA71D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC836F221CF783B000DAA71D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,25 +78,61 @@
 		BC836F2B1CF783B000DAA71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC836F2E1CF783B000DAA71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC836F301CF783B000DAA71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC836F361CF784E500DAA71D /* DM3CheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DM3CheckmarkView.h; sourceTree = "<group>"; };
+		BC836F361CF784E500DAA71D /* DM3CheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DM3CheckmarkView.h; path = DM3CheckmarkView/DM3CheckmarkView.h; sourceTree = SOURCE_ROOT; };
 		BC836F371CF784E500DAA71D /* DM3CheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DM3CheckmarkView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC836F191CF783B000DAA71D /* Frameworks */ = {
+		0F3DA5301DE841D6002073F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0F3DA5391DE841D6002073F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DA53D1DE841D6002073F6 /* DM3Checkmark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC836F191CF783B000DAA71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DA5491DE841D6002073F6 /* DM3Checkmark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3DA5351DE841D6002073F6 /* DM3Checkmark */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DA5361DE841D6002073F6 /* DM3Checkmark.h */,
+				0F3DA5371DE841D6002073F6 /* Info.plist */,
+			);
+			path = DM3Checkmark;
+			sourceTree = "<group>";
+		};
+		0F3DA5421DE841D6002073F6 /* DM3CheckmarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3DA5431DE841D6002073F6 /* DM3CheckmarkTests.m */,
+				0F3DA5451DE841D6002073F6 /* Info.plist */,
+			);
+			path = DM3CheckmarkTests;
+			sourceTree = "<group>";
+		};
 		BC836F131CF783B000DAA71D = {
 			isa = PBXGroup;
 			children = (
 				BC836F1E1CF783B000DAA71D /* DM3CheckmarkView */,
+				0F3DA5351DE841D6002073F6 /* DM3Checkmark */,
+				0F3DA5421DE841D6002073F6 /* DM3CheckmarkTests */,
 				BC836F1D1CF783B000DAA71D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				BC836F1C1CF783B000DAA71D /* DM3CheckmarkView.app */,
+				0F3DA5341DE841D6002073F6 /* DM3Checkmark.framework */,
+				0F3DA53C1DE841D6002073F6 /* DM3CheckmarkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +175,56 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		0F3DA5311DE841D6002073F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DA5461DE841D6002073F6 /* DM3Checkmark.h in Headers */,
+				0F3DA5541DE842A7002073F6 /* DM3CheckmarkView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		0F3DA5331DE841D6002073F6 /* DM3Checkmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3DA54F1DE841D6002073F6 /* Build configuration list for PBXNativeTarget "DM3Checkmark" */;
+			buildPhases = (
+				0F3DA52F1DE841D6002073F6 /* Sources */,
+				0F3DA5301DE841D6002073F6 /* Frameworks */,
+				0F3DA5311DE841D6002073F6 /* Headers */,
+				0F3DA5321DE841D6002073F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DM3Checkmark;
+			productName = DM3Checkmark;
+			productReference = 0F3DA5341DE841D6002073F6 /* DM3Checkmark.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0F3DA53B1DE841D6002073F6 /* DM3CheckmarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3DA5511DE841D6002073F6 /* Build configuration list for PBXNativeTarget "DM3CheckmarkTests" */;
+			buildPhases = (
+				0F3DA5381DE841D6002073F6 /* Sources */,
+				0F3DA5391DE841D6002073F6 /* Frameworks */,
+				0F3DA53A1DE841D6002073F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3DA53F1DE841D6002073F6 /* PBXTargetDependency */,
+				0F3DA5411DE841D6002073F6 /* PBXTargetDependency */,
+			);
+			name = DM3CheckmarkTests;
+			productName = DM3CheckmarkTests;
+			productReference = 0F3DA53C1DE841D6002073F6 /* DM3CheckmarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BC836F1B1CF783B000DAA71D /* DM3CheckmarkView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC836F331CF783B000DAA71D /* Build configuration list for PBXNativeTarget "DM3CheckmarkView" */;
@@ -94,10 +232,12 @@
 				BC836F181CF783B000DAA71D /* Sources */,
 				BC836F191CF783B000DAA71D /* Frameworks */,
 				BC836F1A1CF783B000DAA71D /* Resources */,
+				0F3DA5501DE841D6002073F6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0F3DA5481DE841D6002073F6 /* PBXTargetDependency */,
 			);
 			name = DM3CheckmarkView;
 			productName = DM3CheckmarkView;
@@ -113,6 +253,15 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Dmitry Beloborodov";
 				TargetAttributes = {
+					0F3DA5331DE841D6002073F6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					0F3DA53B1DE841D6002073F6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC836F1B1CF783B000DAA71D;
+					};
 					BC836F1B1CF783B000DAA71D = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -132,11 +281,27 @@
 			projectRoot = "";
 			targets = (
 				BC836F1B1CF783B000DAA71D /* DM3CheckmarkView */,
+				0F3DA5331DE841D6002073F6 /* DM3Checkmark */,
+				0F3DA53B1DE841D6002073F6 /* DM3CheckmarkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0F3DA5321DE841D6002073F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3DA53A1DE841D6002073F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC836F1A1CF783B000DAA71D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +315,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F3DA52F1DE841D6002073F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DA5531DE84267002073F6 /* DM3CheckmarkView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3DA5381DE841D6002073F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3DA5441DE841D6002073F6 /* DM3CheckmarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC836F181CF783B000DAA71D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +343,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F3DA53F1DE841D6002073F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F3DA5331DE841D6002073F6 /* DM3Checkmark */;
+			targetProxy = 0F3DA53E1DE841D6002073F6 /* PBXContainerItemProxy */;
+		};
+		0F3DA5411DE841D6002073F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC836F1B1CF783B000DAA71D /* DM3CheckmarkView */;
+			targetProxy = 0F3DA5401DE841D6002073F6 /* PBXContainerItemProxy */;
+		};
+		0F3DA5481DE841D6002073F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F3DA5331DE841D6002073F6 /* DM3Checkmark */;
+			targetProxy = 0F3DA5471DE841D6002073F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC836F281CF783B000DAA71D /* Main.storyboard */ = {
@@ -183,6 +382,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0F3DA54B1DE841D6002073F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DM3Checkmark/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.dmi3j.DM3CheckmarkView.DM3Checkmark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F3DA54C1DE841D6002073F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DM3Checkmark/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.dmi3j.DM3CheckmarkView.DM3Checkmark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F3DA54D1DE841D6002073F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = DM3CheckmarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.dmi3j.DM3CheckmarkView.DM3CheckmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DM3CheckmarkView.app/DM3CheckmarkView";
+			};
+			name = Debug;
+		};
+		0F3DA54E1DE841D6002073F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = DM3CheckmarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.dmi3j.DM3CheckmarkView.DM3CheckmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DM3CheckmarkView.app/DM3CheckmarkView";
+			};
+			name = Release;
+		};
 		BC836F311CF783B000DAA71D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -296,6 +569,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F3DA54F1DE841D6002073F6 /* Build configuration list for PBXNativeTarget "DM3Checkmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3DA54B1DE841D6002073F6 /* Debug */,
+				0F3DA54C1DE841D6002073F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F3DA5511DE841D6002073F6 /* Build configuration list for PBXNativeTarget "DM3CheckmarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3DA54D1DE841D6002073F6 /* Debug */,
+				0F3DA54E1DE841D6002073F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		BC836F171CF783B000DAA71D /* Build configuration list for PBXProject "DM3CheckmarkView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

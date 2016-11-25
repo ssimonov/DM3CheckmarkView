@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC836F1B1CF783B000DAA71D"
-               BuildableName = "DM3CheckmarkView.app"
-               BlueprintName = "DM3CheckmarkView"
+               BlueprintIdentifier = "0F3DA5331DE841D6002073F6"
+               BuildableName = "DM3Checkmark.framework"
+               BlueprintName = "DM3Checkmark"
                ReferencedContainer = "container:DM3CheckmarkView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC836F1B1CF783B000DAA71D"
-            BuildableName = "DM3CheckmarkView.app"
-            BlueprintName = "DM3CheckmarkView"
-            ReferencedContainer = "container:DM3CheckmarkView.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC836F1B1CF783B000DAA71D"
-            BuildableName = "DM3CheckmarkView.app"
-            BlueprintName = "DM3CheckmarkView"
+            BlueprintIdentifier = "0F3DA5331DE841D6002073F6"
+            BuildableName = "DM3Checkmark.framework"
+            BlueprintName = "DM3Checkmark"
             ReferencedContainer = "container:DM3CheckmarkView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC836F1B1CF783B000DAA71D"
-            BuildableName = "DM3CheckmarkView.app"
-            BlueprintName = "DM3CheckmarkView"
+            BlueprintIdentifier = "0F3DA5331DE841D6002073F6"
+            BuildableName = "DM3Checkmark.framework"
+            BlueprintName = "DM3Checkmark"
             ReferencedContainer = "container:DM3CheckmarkView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
